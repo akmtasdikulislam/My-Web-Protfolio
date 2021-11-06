@@ -1,0 +1,104 @@
+/*  font-family: 'Philosopher', sans-serif;
+    font-family: 'Sansita', sans-serif;
+ */
+h1 ,h2 , h3{
+    font-family: 'Philosopher', sans-serif
+}
+p{
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.half-width{
+    width: 35%;
+    padding: 5%;
+    float: left;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+.highlight{
+    color: orange;
+}
+img{
+    width: 80%;
+}
+section{
+    height: 600px;
+}
+#intro{
+    background-image: url("images/intro-bg.png");
+    background-repeat: no-repeat;
+}
+#aim{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+li{
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+#skills{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+.skill{
+    width: 30%;
+    height: 200px;
+    float: left;
+    box-shadow: 10px 10px 40px grey;
+    margin-top: 5%;
+    margin-left: 12%;
+    padding: 1.5%; 
+}
+#html{
+    border-left: 5px solid red;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg, yellowgreen, green );
+    border-image-slice: 1;
+    
+}
+#css{
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg, #E100FF, #7F00FF );
+    border-image-slice: 1;
+    
+}
+.button{
+    float: left;
+    margin-top: 2%;
+    margin-left:38%;
+}
+button{
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    padding: 8px 10px;
+    margin-left: 3px;
+    background-image: linear-gradient(45deg, #56CCF2, #2F80ED );
+}
+button:hover{
+    border-radius: 10px 0px 10px 0px;
+    background-image: linear-gradient(45deg, #021B79, #0575E6 );
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Sansita', sans-serif;
+    text-decoration: none;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+}
